@@ -1,0 +1,2 @@
+# TraceReconstruction-v2
+Creation of a simple trace reconstruction program for physical purposes. From a Monte Carlo simulation a list of rectilinear trace are created and made interact with a detector to generate the point of interaction. After being adequately saved using a proper format the Hought transformation is used on GPU to reconstruct the traces. The reconstructed traces are then compared to the originals.
